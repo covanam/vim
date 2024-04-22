@@ -4,5 +4,7 @@ syntax on
 set autoindent
 set tabstop=8
 
+map <F5> :NERDTreeToggle<CR>
+
 autocmd FileType mail,human,gitcommit set textwidth=75
 
