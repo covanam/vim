@@ -1,4 +1,4 @@
-colorscheme codedark
+colorscheme dim
 set updatetime=1000
 syntax on
 set autoindent
