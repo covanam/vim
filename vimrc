@@ -9,3 +9,5 @@ map <F5> :NERDTreeToggle<CR>
 
 autocmd FileType mail,human,gitcommit set textwidth=75
 
+let mapleader=" "
+
