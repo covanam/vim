@@ -11,3 +11,5 @@ autocmd FileType mail,human,gitcommit set textwidth=75
 
 let mapleader=" "
 
+map <Leader> <Plug>(easymotion-prefix)
+
