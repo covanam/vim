@@ -21,3 +21,5 @@ map  <Leader>w <Plug>(easymotion-bd-w)
 " Case insensitive search
 let g:EasyMotion_smartcase = 1
 
+map <Leader>b :CtrlPBuffer<CR>
+
