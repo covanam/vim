@@ -1,5 +1,4 @@
 colorscheme dim
-set updatetime=1000
 syntax on
 set autoindent
 set tabstop=8
@@ -22,4 +21,6 @@ map  <Leader>w <Plug>(easymotion-bd-w)
 let g:EasyMotion_smartcase = 1
 
 map <Leader>b :CtrlPBuffer<CR>
+
+map <Leader>g :GitGutter<CR>
 
