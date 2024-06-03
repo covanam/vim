@@ -1,10 +1,14 @@
-colorscheme dim
+colorscheme murphy
 syntax on
 set autoindent
 set tabstop=8
 set nu
 
 autocmd FileType mail,human,gitcommit set textwidth=75
+
+highlight GitGutterAdd    ctermfg=green  ctermbg=green
+highlight GitGutterChange ctermfg=yellow ctermbg=yellow
+highlight GitGutterDelete ctermfg=red    ctermbg=red
 
 let mapleader=" "
 
