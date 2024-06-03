@@ -24,3 +24,6 @@ map <Leader>b :CtrlPBuffer<CR>
 
 map <Leader>g :GitGutter<CR>
 
+map gr yw :Ggrep! -w <C-r>" \| <CR> \| :copen<CR>
+map ts yw :ts <C-r>"<CR>
+
