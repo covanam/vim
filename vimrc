@@ -1,16 +1,9 @@
-colorscheme murphy
-let loaded_matchparen = 1
-
 syntax on
 set autoindent
 set tabstop=8
 set nu
 
 autocmd FileType mail,human,gitcommit set textwidth=75
-
-highlight GitGutterAdd    ctermfg=green  ctermbg=green
-highlight GitGutterChange ctermfg=yellow ctermbg=yellow
-highlight GitGutterDelete ctermfg=red    ctermbg=red
 
 let mapleader=" "
 
@@ -32,4 +25,10 @@ map <Leader>g :GitGutter<CR>
 
 map gr yw :Ggrep! -w <C-r>" \| <CR> \| :copen<CR>
 map ts yw :ts <C-r>"<CR>
+
+colorscheme murphy
+highlight MatchParen ctermbg=black ctermfg=red cterm=NONE
+highlight GitGutterAdd    ctermfg=green  ctermbg=green
+highlight GitGutterChange ctermfg=yellow ctermbg=yellow
+highlight GitGutterDelete ctermfg=red    ctermbg=red
 
