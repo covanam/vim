@@ -15,6 +15,7 @@ nmap s <Plug>(easymotion-overwin-f2)
 
 " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
+map  <Leader>e <Plug>(easymotion-bd-e)
 
 " Case insensitive search
 let g:EasyMotion_smartcase = 1
