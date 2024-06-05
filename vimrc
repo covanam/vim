@@ -1,4 +1,6 @@
 colorscheme murphy
+let loaded_matchparen = 1
+
 syntax on
 set autoindent
 set tabstop=8
