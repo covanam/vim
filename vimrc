@@ -10,11 +10,8 @@ let mapleader=" "
 " <Leader>f{char} to move to {char}
 map  <Leader>f <Plug>(easymotion-bd-f)
 
-" s{char}{char} to move to {char}{char}
-nmap s <Plug>(easymotion-overwin-f2)
-
 " Move to word
-map  <Leader>w <Plug>(easymotion-bd-w)
+map  s         <Plug>(easymotion-bd-w)
 map  <Leader>e <Plug>(easymotion-bd-e)
 
 " Case insensitive search
