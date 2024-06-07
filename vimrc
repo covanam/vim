@@ -30,3 +30,7 @@ highlight GitGutterAdd    ctermfg=green  ctermbg=green
 highlight GitGutterChange ctermfg=yellow ctermbg=yellow
 highlight GitGutterDelete ctermfg=red    ctermbg=red
 
+if !executable('git')
+  let g:gitgutter_enabled = 0
+endif
+
