@@ -21,7 +21,12 @@ map <Leader>b :CtrlPBuffer<CR>
 
 map <Leader>g :GitGutter<CR>
 
-map gr yw :Ggrep! -w <C-r>" \| <CR> \| :copen<CR>
+if executable('git') && isdirectory(".git")
+	map gr yw :Ggrep! -w <C-r>"<CR> \| :copen<CR>
+else
+	map gr yw :grep! -r -w <C-r>" *<CR><CR> \| :copen<CR>
+endif
+
 map ts yw :ts <C-r>"<CR>
 
 colorscheme murphy
