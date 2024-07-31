@@ -14,6 +14,11 @@ map  <Leader>f <Plug>(easymotion-bd-f)
 map  s         <Plug>(easymotion-bd-w)
 map  <Leader>e <Plug>(easymotion-bd-e)
 
+map  <Leader>l <Plug>(easymotion-lineforward)
+map  <Leader>j <Plug>(easymotion-j)
+map  <Leader>k <Plug>(easymotion-k)
+map  <Leader>h <Plug>(easymotion-linebackward)
+
 " Case insensitive search
 let g:EasyMotion_smartcase = 1
 
