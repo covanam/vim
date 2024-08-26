@@ -33,8 +33,10 @@ endif
 
 map ts yw :ts <C-r>"<CR>
 
-colorscheme murphy
-highlight MatchParen ctermbg=black ctermfg=red cterm=NONE
+set background=dark
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
+
 highlight GitGutterAdd    ctermfg=green  ctermbg=green
 highlight GitGutterChange ctermfg=yellow ctermbg=yellow
 highlight GitGutterDelete ctermfg=red    ctermbg=red
