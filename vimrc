@@ -11,7 +11,7 @@ let mapleader=" "
 map  <Leader>f <Plug>(easymotion-bd-f)
 
 " Move to word
-map  s         <Plug>(easymotion-bd-w)
+map  f         <Plug>(easymotion-bd-w)
 map  <Leader>e <Plug>(easymotion-bd-e)
 
 map  <Leader>j <Plug>(easymotion-j)
@@ -44,4 +44,7 @@ highlight GitGutterDelete ctermfg=red    ctermbg=red
 if !executable('git')
   let g:gitgutter_enabled = 0
 endif
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
 
