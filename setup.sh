@@ -11,3 +11,4 @@ git clone --depth=1 https://github.com/easymotion/vim-easymotion.git
 git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git
 git clone --depth=1 https://github.com/morhetz/gruvbox.git
 git clone --depth=1 https://github.com/tpope/vim-vinegar.git
+git clone --depth=1 https://github.com/tpope/vim-sleuth.git
