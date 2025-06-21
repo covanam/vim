@@ -3,6 +3,7 @@ set autoindent
 set tabstop=8
 set nu
 set wildmode=list:longest,full
+set wildmenu
 
 autocmd FileType mail,human,gitcommit set textwidth=75
 
