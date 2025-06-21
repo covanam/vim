@@ -7,16 +7,10 @@ autocmd FileType mail,human,gitcommit set textwidth=75
 
 let mapleader=" "
 
-" <Leader>f{char} to move to {char}
-map  <Leader>f <Plug>(easymotion-bd-f)
-
-" Move to word
-map  f         <Plug>(easymotion-bd-w)
-map  <Leader>e <Plug>(easymotion-bd-e)
+map  f <Plug>(easymotion-bd-f)
 
 map  <Leader>j <Plug>(easymotion-j)
 map  <Leader>k <Plug>(easymotion-k)
-map  <Leader>l <Plug>(easymotion-bd-wl)
 
 " Case insensitive search
 let g:EasyMotion_smartcase = 1
