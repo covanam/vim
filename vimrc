@@ -11,14 +11,6 @@ let mapleader=" "
 
 map <Leader>g :GitGutter<CR>
 
-if executable('git') && isdirectory(".git")
-	map gr :Ggrep! -w <C-r><C-w><CR> \| :copen<CR>
-else
-	map gr :grep! -r -w <C-r><C-w> *<CR><CR> \| :copen<CR>
-endif
-
-map ts :ts <C-r><C-w><CR>
-
 set background=dark
 let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
