@@ -4,6 +4,7 @@ set tabstop=8
 set nu
 set wildmode=longest:full,full
 set wildmenu
+let g:netrw_banner=0
 
 autocmd FileType mail,human,gitcommit set textwidth=75
 
