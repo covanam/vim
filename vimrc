@@ -8,9 +8,7 @@ let g:netrw_banner=0
 
 autocmd FileType mail,human,gitcommit set textwidth=75
 
-let mapleader=" "
-
-map  f <Plug>(easymotion-bd-f)
+map <Space> <Plug>(easymotion-bd-w)
 
 map  <Leader>j <Plug>(easymotion-j)
 map  <Leader>k <Plug>(easymotion-k)
