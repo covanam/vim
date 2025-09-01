@@ -1,7 +1,7 @@
 syntax on
 set autoindent
 set tabstop=8
-set nu
+set rnu
 set wildmode=longest:full,full
 set wildmenu
 let g:netrw_banner=0
