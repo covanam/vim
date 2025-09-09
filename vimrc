@@ -11,14 +11,7 @@ autocmd FileType mail,human,gitcommit set textwidth=75
 
 map <Leader>g :GitGutter<CR>
 
-set background=dark
-let g:gruvbox_contrast_dark='hard'
-let g:gruvbox_contrast_light='hard'
-colorscheme gruvbox
-
-highlight GitGutterAdd    ctermfg=green  ctermbg=green
-highlight GitGutterChange ctermfg=yellow ctermbg=yellow
-highlight GitGutterDelete ctermfg=red    ctermbg=red
+colorscheme wildcharm
 
 if !executable('git')
   let g:gitgutter_enabled = 0
