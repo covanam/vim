@@ -11,7 +11,7 @@ autocmd FileType mail,human,gitcommit set textwidth=75
 
 map <Leader>g :GitGutter<CR>
 
-colorscheme wildcharm
+silent! colorscheme wildcharm
 
 if !executable('git')
   let g:gitgutter_enabled = 0
