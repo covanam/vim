@@ -9,10 +9,7 @@ let g:netrw_banner=0
 
 autocmd FileType mail,human,gitcommit set textwidth=75
 
-map <Space> <Plug>(easymotion-bd-w)
-
-map  <Leader>j <Plug>(easymotion-j)
-map  <Leader>k <Plug>(easymotion-k)
+map <Space> <Plug>(easymotion-bd-f)
 
 " Case insensitive search
 let g:EasyMotion_smartcase = 1
